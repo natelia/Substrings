@@ -1,0 +1,1 @@
+The substrings function is designed to take a word and a dictionary of words as input, then count the occurrences of each dictionary word as a substring within the given word. The function returns a hash containing the counts for each substring found.
