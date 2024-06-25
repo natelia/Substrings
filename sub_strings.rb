@@ -10,7 +10,7 @@ def substrings(word, dictionary)
   substrings_counts
 end
 
- word = 'below'
- dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+word = 'below'
+dictionary = %w[below down go going horn how howdy it i low own part partner sit]
 
- puts substrings(word, dictionary)
+puts substrings(word, dictionary)
